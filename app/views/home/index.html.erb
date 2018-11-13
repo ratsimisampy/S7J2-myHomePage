@@ -1,0 +1,69 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="myHomePage/app/views/home/index.html.erb" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+<header>    
+    <div class="logo">
+        <ul>
+            <li><%= image_tag asset_path('logo-01.png') %></li>
+        </ul>
+    </div>    
+    <div class="menu">
+        <ul class="btns">
+            <li><a href="#" class="btn-menu">Home</a></li>
+            <li><a href="#" class="btn-menu">About</a></li>
+            <li><a href="#" class="btn-menu">Articles</a></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <ul class="avatar">
+            <li><a href="#">Rado</a></li>
+            <li><i id="myAvatar" class="fas fa-user-tie"></i></li>
+            
+        </ul>
+    </div>
+</header>
+<div class="container">
+    <h1>
+        Welcome to my page!
+    </h1>
+   <br />
+    <div class="paragraph">
+        <div class="card">
+            <div class="portrait">
+                <%= image_tag asset_path('portrait.jpg') %>
+            </div>
+            <div class="about">
+                <p class="job">Cat Woman</p>
+                <p>Secret Agent</p>
+                <hr/>
+            </div>        
+        </div>
+        <div class="texte">
+                <blockquote> Illud tamen te esse admonitum volo, primum ut qualis es talem te esse omnes existiment ut, quantum a rerum turpitudine abes, tantum te a verborum libertate seiungas; deinde ut ea in alterum ne dicas, quae cum tibi falso responsa sint, erubescas. Quis est enim, cui via ista non pateat, qui isti aetati atque etiam isti dignitati non possit quam velit petulanter, etiamsi sine ulla suspicione, at non sine argumento male dicere? Sed istarum partium culpa est eorum, qui te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingenii, quod ornate politeque dixisti.</blockquote>
+        </div>
+    </div>
+    <div>
+        <ul class="btn-list">
+            <li><a class="btn-success">Connect</a></li>
+            <li><a class="btn-success">Register</a></li>
+        </ul>
+        
+        
+    </div>
+</div>
+
+
+<footer>
+    <div>
+        <ul class="footer-menu">
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a><i class="fab fa-twitter-square"></i></a></li>
+            <li><a><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

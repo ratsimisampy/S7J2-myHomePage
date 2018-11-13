@@ -1,0 +1,173 @@
+body {
+    background-color: #eeeeee; 
+}
+
+/************** Inside NAVBAR ****************/
+
+header
+{
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+    color: #222831;
+    
+}
+
+.logo img
+{
+    width: auto;
+    height: 40px;
+    color: white;
+    
+}
+
+.menu
+{
+    width: 50%;
+}
+
+.btns
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+}
+
+
+li a
+{
+    color: #222831;  
+    text-decoration: none;
+    padding: 20px 16px;
+    border-radius: 0.5em;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+li a:hover 
+{
+    background-color: #393e46;
+    color: #eeeeee;
+}
+.nav-right
+{
+    width: 20%;
+}
+
+.avatar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#myAvatar:hover
+{   
+    border-color: #eeeeee;
+    color: #7971ea;
+}
+
+/************ Middle page elements ***********/
+/************ CARD ************/
+
+
+.portrait img
+{
+    height: auto;
+    width: 320px;
+    border-radius: 50%;
+    
+}
+
+.job
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.about p
+{
+    text-align: center;
+    font-size: 10px;    
+}
+
+/*********** Title, paragraph ... ************/
+h1, h5
+{
+    text-align: center;
+}
+
+
+.paragraph
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+blockquote
+{
+    text-align: right;
+}
+
+.texte
+{
+    width: 50%;    
+}
+
+
+
+/************** Buttons bottom page ***********/
+
+.btn-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        
+    
+    
+}
+
+.btn-success
+{
+    background-color: #7971ea;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 8%;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.btn-success:hover 
+{
+    box-shadow: 2px 2px #7971ea;
+}
+
+/*********** Footer elements **************/
+
+footer
+{
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 10%;
+}
+
+.footer-menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
