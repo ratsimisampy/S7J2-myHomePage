@@ -1,24 +1,9 @@
-# README
+# S7J2 - CSS HTML Homepage
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* This page uses Rails, fontawesome and CSS's tips only.
+* No Bootstrap
 
-Things you may want to cover:
+### Heroku's link
 
-* Ruby version
+https://home-page-css.herokuapp.com/
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
